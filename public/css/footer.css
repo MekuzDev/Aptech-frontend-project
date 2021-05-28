@@ -141,6 +141,9 @@ footer{
         width: 100%;
     }
   
+    main{
+        overflow-x: hidden;
+      }
 
 
    
