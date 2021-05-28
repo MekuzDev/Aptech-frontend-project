@@ -1,0 +1,127 @@
+@font-face {
+  font-family: burma-reg;
+  src: url(../webfonts/Burma-Regular.ttf);
+}
+
+@font-face {
+  font-family: font-light-2;
+  src: url();
+}
+
+@font-face {
+  font-family: font-light;
+  src: url();
+}
+
+@font-face {
+  font-family: font-light-1;
+  src: url();
+}
+
+@font-face {
+  font-family: font-regular;
+  src: url();
+}
+
+@font-face {
+  font-family: font-bold-1;
+  src: url();
+}
+*{
+  margin:  0;
+  padding: 0 ;
+  box-sizing: border-box;
+  font-family: burma-reg;
+
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+li {
+  list-style-type: none;
+}
+body {
+  background-color: #e1e9e9cb;
+  -webkit-overflow-scrolling: touch;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+button {
+  outline: none;
+}
+
+div.section section{
+  margin-top: 14em;
+}
+
+
+.drop-icon {
+  font-size: 0.9rem;
+}
+
+.btn-outline {
+  border: 1px solid rgb(0, 0, 0);
+  align-self: flex-start;
+}
+
+.btn {
+
+  padding: 0.4em 1em;
+  margin: 10px 0;
+}
+
+
+img{
+  max-width: 100%;
+}
+.btn-success{
+  background-color: seagreen !important;
+  color:#fff !important;
+}
+
+
+.section-content{
+	margin: 3vh 0;
+}
+
+.section-header{
+  text-align: center;
+ font-size: 1.2em;
+
+}
+
+.section-header h2{
+  padding: 2%;
+  text-decoration: underline;
+  text-decoration-thickness: 7px;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none ;
+  line-height: 1.6;
+}
+
+
+.row{
+  display: grid;
+}
+
+
+.grid-1-cols{
+  display: grid;
+}
+
+
+
+
+a:hover{
+	text-decoration: none;
+}
+
+
+

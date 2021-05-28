@@ -1,0 +1,105 @@
+
+.hero-section{
+    width: 90%;
+    margin: 0 auto;
+    /* background: burlywood; */
+    padding: 2em 0;
+
+
+}
+
+.sliders{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: .6%;
+   
+}
+
+.slide{
+    /* background: rgba(234, 238, 238, 0.918); */
+    height: 60vh;
+    margin-top: 2vh;
+    width: 90%;
+
+   
+
+}
+
+.slide-banner{
+    /* background: rgba(150, 147, 148, 0.164); */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slide-banner p{
+    width: 50%;
+    margin: 0px 15px;
+}
+
+
+.slide-banner h2{
+    margin: 10px 15px;
+}
+
+
+.slide-banner a:hover{
+    text-decoration: none;
+    background-color: #000;
+    transition: ease .5s;
+    color: #fff;
+}
+
+
+.sliders-controls{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    padding: 3% auto;
+
+   
+}
+
+.sliders-controls .fa {
+font-size: 1rem;
+border-radius: 50%;
+
+}
+
+
+.sliders-controls button:hover{
+    background: black;
+    transition: background .5s ;
+    color: #fff;
+} 
+
+.left, .right{
+border:none;
+padding: 1rem;
+}
+
+.shop-now{
+    margin-left: 15px;
+}
+
+@media screen and (max-width:770px) {
+    .hero-section{
+        display: none;
+    }
+}
+@media screen and (width:1024px) {
+    .slide{
+        height: 30vh;
+    }
+  
+ 
+}
+
+@media screen and (width:280px) {
+    body{
+        /* display: none; */
+        width: 100%;
+    }
+}

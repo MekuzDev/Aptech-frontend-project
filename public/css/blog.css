@@ -1,0 +1,40 @@
+.blog-section{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 100%;
+    margin:0 auto;
+
+   
+}
+
+.card-img-overlay{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card-date{
+    align-self: flex-end;
+    display: flex;
+}
+
+.news-brief{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.news-headline{
+    margin-top: 4vh;
+
+}
+
+
+.blog-section .row{
+    width: 95% !important;
+    margin: 0 auto !important;
+    
+}
+
+.blog-section .card{
+    transform: scale(.9);
+}

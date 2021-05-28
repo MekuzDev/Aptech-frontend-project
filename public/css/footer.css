@@ -1,0 +1,168 @@
+/* .footer{
+
+} */
+
+.copyright{
+    background: rgb(0, 0, 0);
+    text-align: center;
+    padding: .7rem;
+    background-blend-mode: multiply;
+    color: #fff;
+  
+}
+
+.copyright .fa {
+    color: red;
+}
+
+.copyright .fa-thumbs-up{
+    color:rgb(243, 211, 29);
+}
+
+.footer-nav {display:flex;
+    margin: 1rem 0;
+ ;}
+ .footer-nav li{
+        margin: 1rem auto;
+        margin-right: .5em;
+
+    
+    }
+
+    .footer li{
+        text-transform: uppercase;
+        font-size: .9rem;
+
+    }
+    
+
+.footer{
+    display: flex;
+    width:90%;
+    margin:auto;
+    gap: 1rem;
+    
+    
+}
+
+footer{
+    background-color: rgb(53, 56, 53);
+    width: 100%;
+    padding: .7em 0 ;
+    
+}
+
+.socials{
+    width: 35%;
+
+}
+.social-icons a{
+    margin-right: .7rem;
+    margin-top: 1rem;
+    display: inline-block;
+}
+.socials h2, .quick-links h2, .newsletter h2{
+    text-align: center;
+    padding: 2rem;
+}
+
+.quick-links{
+    max-width: 35%;
+  
+}
+
+
+
+.footer .form-control{
+    width:95%;
+    border:1px solid black;
+    display: flex;
+    align-items:center;
+    background: #fff;
+}
+
+.footer .btn-outline{
+    height: 100%;
+    padding: .5rem;
+    width: 20%;
+    border:none;
+    border-left: 1px solid black;
+;
+}
+
+.footer .btn-outline:hover{
+    background: #000;
+    color: white;
+}
+
+.footer input[type='email']{
+    width: 80%;
+    height: 100%;
+    padding: .5rem;
+    border:none;
+    background: transparent;
+}
+
+@media screen and (min-width:280px) {
+   .footer{
+       display: grid;
+      grid-template-columns: repeat(1,1fr);
+   }
+
+   .quick-links{
+       width: 50%;
+   }
+   .socials{
+       width: 100%;
+   }
+}
+
+
+
+@media (min-width: 600px) { 
+    .footer{
+        display: grid;
+       grid-template-columns: repeat(2,1fr);
+    }
+ 
+    .quick-links,.socials, .newsletter, .form-control{
+        width: 100%;
+    }
+  
+  }
+
+  @media (min-width: 768px) { 
+    .footer{
+        display: grid;
+       grid-template-columns: repeat(2,1fr);
+    }
+ 
+    .quick-links,.socials,.newsletter{
+        width: 100%;
+    }
+  
+
+
+   
+ }
+   
+  
+@media (min-width: 992px) { 
+    .footer{
+        display: grid;
+       grid-template-columns: repeat(3,1fr);
+    }
+ 
+    .quick-links,.socials,.newsletter{
+        width: 100%;
+    }
+  
+  
+   }
+  
+  @media (min-width: 1200px) { 
+ 
+  
+ 
+
+  }

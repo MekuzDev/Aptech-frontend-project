@@ -1,0 +1,179 @@
+header{
+    height: 10vh;
+    background: rgb(236, 233, 232);
+    position: relative;
+}
+
+.site-name{
+    vertical-align: baseline;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-family:poppins;
+    font-size: .9rem;
+    color: rgb(66, 60, 43);
+}
+
+
+ .fa-search{
+    color: green;
+    
+}
+
+.fa-bars{
+    display: none;
+}
+
+.site-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    vertical-align: baseline;
+   
+}
+
+.nav-menu{
+    display: flex;
+    gap: 15px;
+ 
+
+    
+}
+
+.site-nav {
+    display: flex;
+    justify-content: space-evenly;
+    /* position: relative; */
+}
+
+.site-menu-icons-nav {
+    display: flex;
+    display: block;
+     right:0 ;
+
+}
+
+.site-menu-icons-nav li{
+    margin-right: .5em;
+}
+
+.site-menu-icons-nav li{
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8em;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: fixed;
+    right: 2%;
+    top:10%;
+    color: white;
+    text-align: center;
+    z-index: 3;
+    font-size: 1.2rem;
+    box-shadow:  0 0 5px #333333b0;
+    cursor: pointer;
+    background-color: rgb(128, 4, 0);
+
+}
+
+.site-menu-icons-nav sup{
+    position: absolute;
+    top:0;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.site-menu-icons-nav strong{
+     color: rgb(27, 27, 27);
+    font-size: .9rem;
+    color: rgb(255, 255, 255);
+
+
+     
+}
+
+/* .site-menu-icons-nav .fa-shopping-cart::after{
+    content :"2";
+    font-size:.7rem;
+    position:absolute;
+    top:0%;
+    padding: 10%;
+    border-radius: 50%;
+    background: #fff;
+
+    color:black;
+    font-family: burma-reg;
+} */
+
+.nav-menu a{
+    font-weight: 500;
+ font-family: burma-reg;
+
+     
+    
+}
+
+nav{
+    width: 70%;
+}
+
+@media (max-width:768px){
+    .nav-menu{
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        background-color: rgb(39, 39, 37);
+        width: 100%;
+       z-index: 5;
+       transition: .8s cubic-bezier(0.23, 1, 0.320, 1);
+        height: 250px;
+        opacity: 1;
+        padding: 5px 0;
+        overflow-y: hidden;
+    }
+
+    .toggle-visibility{
+        height: 0px;
+        overflow-x: hidden;
+        transition: .8s ease-in;
+        opacity: 0;
+    }
+
+    .fa-bars{
+        display: flex;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+ 
+
+    .site-menu{
+        flex-direction: column;
+      
+   
+    }
+    .site-menu li{
+        padding:0 12px;
+    }
+
+    .site-menu a{
+        color: #fff;
+
+    }
+    header{
+        height: 100%;
+        position: relative;
+    }
+    .site-name{
+        padding: 12px 0;
+        align-self:start;
+    }
+}

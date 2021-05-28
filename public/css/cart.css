@@ -1,0 +1,134 @@
+.cart{
+    position: absolute;
+    width: 100%;
+    max-width: 500px;
+    background: rgba(44, 44, 43, 0.959);
+    z-index: 9;
+    right: 0;
+    transform: translateX(0%);
+    z-index: 3;
+    transition: transform 0.25s ease-in , opacity 0.25s linear;
+    opacity: 1;
+    overflow-y: auto;
+
+
+}
+
+.toggle-cart{
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+.cart-header{
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cart-product{
+    display: flex;
+    border:1px solid #fff;
+    margin-bottom: .5em;
+    justify-content: space-between;
+    padding: 2em 1em;
+}
+
+.cart-body{
+    width: 90%;
+    margin: .4em auto;
+   
+}
+
+.cart__prod-img{
+    width: 40%;
+    max-width: 150px;
+    /* min-width: 50%; */
+    display: flex;
+    margin-right: 1rem;
+    height: 100%;
+    flex-direction: column;
+    height: 100%;
+    /* padding: 1rem 1rem; */
+
+}
+
+
+.cart__prod-details {
+    color:white;
+    display: flex;
+    flex-direction: column;
+     line-height: 1.9;
+}
+
+.cart__prod-details a{
+    background: rgb(114, 3, 3);
+    color: #fff;
+}
+
+
+.cart__product-count-counter{
+    width: 20%;
+    outline: none;
+    text-align: center;
+    
+}
+
+
+#close-cart{
+    cursor: pointer;
+}
+
+.counter-btn{
+    border: none;
+    background-color: black;
+    color: #fff;
+    padding: .2em;
+    text-align: center;
+}
+
+.cart__product-count-counter{
+    height: 100%;
+    outline-style:none;
+}
+
+.cart__product-total{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+}
+
+.price-total{
+    align-self: flex-end;
+    color:#fff
+   
+}
+
+.price-total   > *   {
+    margin:.7em 0;
+}
+
+.cart-footer-container{
+    display: flex;
+   
+}
+
+.p2p,.cshoping{
+    flex:1;
+    padding: 1rem 0;
+    font-size: 1.3rem ;
+
+}
+.cshoping{
+    background: rgb(54, 94, 54);color:#fff;
+
+}
+
+.p2p{
+    background: rgb(34, 55, 100);color:#fff;
+
+}
