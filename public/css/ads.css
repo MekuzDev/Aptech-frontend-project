@@ -1,4 +1,4 @@
-.advert-placement{
+.ad__space{
     height: 40vh;
     width: 70%;
     background: grey;
@@ -15,3 +15,47 @@
     color: #fff;
     position: absolute;
 }
+
+
+.get-info{
+    width: 80%;
+    ;
+    background: linear-gradient(140deg, rgb(61, 99, 99),rgb(146, 111, 111));
+    margin: 2rem auto;
+    display: flex;
+}
+
+.info-text{
+color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+
+.get-info form{
+    width: 50%;
+    height: 100%;
+    align-self: center;
+
+}
+.form-control{
+    display: flex;
+    width: 70%;
+
+}
+
+.form-control input{
+    flex: 1;
+    padding: 7px;
+}
+.subscribe{
+    padding: 7px;
+    align-self:flex-end;
+    background: rgb(41, 40, 40);
+    color:#fff;
+}
+
+
+

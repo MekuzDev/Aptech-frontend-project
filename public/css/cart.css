@@ -133,3 +133,10 @@
     background: rgb(34, 55, 100);color:#fff;
 
 }
+
+
+@media  (min-width:1200px) {
+    .cart{
+        top:10%
+    }
+}
