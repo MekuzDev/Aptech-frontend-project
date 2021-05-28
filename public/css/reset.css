@@ -106,6 +106,10 @@ img{
   line-height: 1.6;
 }
 
+main{
+  overflow-x: hidden;
+}
+
 
 .row{
   display: grid;
